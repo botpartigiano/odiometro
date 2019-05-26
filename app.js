@@ -1,7 +1,7 @@
 /** APP **/
 // Node app
 
-var acceptedLangs = ['es', 'en'];
+var acceptedLangs = ['es', 'en', 'it'];
 
 // GET parameters
 var args = process.argv.slice(2);

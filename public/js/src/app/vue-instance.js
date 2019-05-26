@@ -14,8 +14,8 @@ var app = {
 
 // Create VueI18n instance with options
 app.i18n = new VueI18n({
-	locale: 'es', // set locale
-	messages // set locale messages
+	locale: 'en', // set locale
+	messages: messages // set locale messages
 });
 
 Object.defineProperty(Vue.prototype, '$locale', {
@@ -29,3 +29,5 @@ Object.defineProperty(Vue.prototype, '$locale', {
 
 // VueJS Main
 const appVue = new Vue(app);
+
+console.log("Locale:", appVue.$locale.get());
